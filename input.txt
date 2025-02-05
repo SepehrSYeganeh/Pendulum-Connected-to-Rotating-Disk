@@ -1,0 +1,9 @@
+theta = [0,0.1]            # theta and it's derivative with respect to time [(rad) , (rad/s)]
+g = 10                  # gravity acceleration (m/s^2)
+w = 1                    # angular velocity of the wheel (s^-1)
+b = 1e2                   # lenth of the rod (m)
+R = 1e1                    # radius of the wheel (m)
+dt = 1e-4                # time step for numerical solution (s)
+T = 120                   # duration of the simulation (s)
+slow_motion_factor = 0.1   # the factor by which the animated simulation is slowed down
+X,Y = 800, 600           # screen width and height of the animated simulation (pixels)
